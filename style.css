@@ -151,6 +151,115 @@ nav{
   }
 }
 
+
+.main{
+margin-top: 50px;
+  button{
+    padding: 15px 45px;
+    border: none;
+    background-color: var(--line-color);
+    color: var(--default-color);
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  .main__header{
+    display: flex;
+    justify-content: space-between;
+  
+  
+  
+    
+    img{
+      height: 500px;
+      width: 500px;
+    }
+    h1{
+      font-size: 45px;
+      font-weight: bolder;
+      margin-bottom: 20px;
+  
+  
+    }
+    span{
+      color: var(--secondary-color);
+    }
+  }
+
+  .main__footer{
+    display: flex;
+    justify-content: space-between;
+    button{
+      padding: 30px 80px;
+      font-size: 24px;
+      background-color: var(--secondary-color);
+    }
+
+  }
+}
+
+
+
+.about{
+margin-top: 50px;
+  .about__main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2{
+      font-size: 40px;
+    }
+    p{
+      font-size: 20px;
+    }
+    
+    
+      .about__left{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        button{
+          width: 40%;
+          padding: 15px 45px;
+    background-color: var(--default-color);
+    color: var(--main-color);
+    cursor: pointer;
+    font-weight: bold;
+        }
+      }
+    
+      .about__right{
+
+        img{
+          height: 400px;
+          width: 600px;
+        }
+        
+      }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
   background-color: var(--bg-color);
   padding: 35px 0 35px 0;
@@ -178,3 +287,4 @@ footer{
 .icon {
   margin-right: 5px;
 }
+
