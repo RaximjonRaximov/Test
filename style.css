@@ -70,4 +70,111 @@
   --bg-setting: #ffdcd1;
   --line-color: #e6403f;
 }
+ul{
+  list-style: none;
 
+}
+
+
+.container{
+  width: 80%;
+  margin: auto;
+  max-width: 1200px;
+  min-width: 1100px;
+}
+
+
+
+
+header{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+
+
+  img{
+    height: 90px;
+    width: 255px;
+  }
+  ul {
+    display: flex;
+    gap: 10px;
+  }
+  .shop{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    img {
+      height: 20px;
+      width: 20px;
+    }
+  }
+
+  .signUp{
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--secondary-color);
+    width: 160px;
+    justify-content: space-between;
+
+    img {
+      height: 20px;
+      width: 20px;
+      margin-left: 10px;
+      
+      
+    }
+    p{
+      border-left:1px solid var(--secondary-color);
+      padding: 10px 30px;
+
+    }
+  }
+}
+
+nav{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  
+  input{
+    padding: 10px 30px;
+    width: 400px;
+  }
+  button{
+    background-color: var(--secondary-color);
+    color: var(--default-color);
+    border: none;
+    padding: 5px 10px;
+  }
+}
+
+footer{
+  background-color: var(--bg-color);
+  padding: 35px 0 35px 0;
+
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  .footer__box{
+    img{
+      margin-bottom: 20px;
+    }
+    h3{
+      margin-bottom: 20px;
+    }
+    li{
+      margin-bottom: 10px;
+    }
+
+  }
+}
+}
+
+.icon {
+  margin-right: 5px;
+}
